@@ -52,6 +52,8 @@ public class Product {
     public int hashCode() {
         return Objects.hash(id);
     }
-
+    public String getImage_url() {
+       return this.imageUrl;
+    }
 }
 
