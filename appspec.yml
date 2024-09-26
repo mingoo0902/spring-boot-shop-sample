@@ -8,7 +8,7 @@
             "Type": "AWS::ECS::Service",
             "Properties":
               {
-                "TaskDefinition": "arn:aws:ecs:ap-northeast-2:637423403127:task-definition/MSA-TASK-94102118:2",
+                "TaskDefinition": "arn:aws:ecs:ap-northeast-2:637423403127:task-definition/MSA-TASK-94102118:3",
                 "LoadBalancerInfo":
                   { "ContainerName": "94102118-app", "ContainerPort": 8080 },
                 "PlatformVersion": "1.4.0",
